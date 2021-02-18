@@ -1,0 +1,15 @@
+C:\Users\omerf\source\repos\CarRentalProject\ConsoleUI\bin\Debug\ConsoleUI.exe.config
+C:\Users\omerf\source\repos\CarRentalProject\ConsoleUI\bin\Debug\ConsoleUI.exe
+C:\Users\omerf\source\repos\CarRentalProject\ConsoleUI\bin\Debug\ConsoleUI.pdb
+C:\Users\omerf\source\repos\CarRentalProject\ConsoleUI\bin\Debug\Business.dll
+C:\Users\omerf\source\repos\CarRentalProject\ConsoleUI\bin\Debug\Core.dll
+C:\Users\omerf\source\repos\CarRentalProject\ConsoleUI\bin\Debug\DataAccess.dll
+C:\Users\omerf\source\repos\CarRentalProject\ConsoleUI\bin\Debug\Entities.dll
+C:\Users\omerf\source\repos\CarRentalProject\ConsoleUI\bin\Debug\Business.pdb
+C:\Users\omerf\source\repos\CarRentalProject\ConsoleUI\bin\Debug\Core.pdb
+C:\Users\omerf\source\repos\CarRentalProject\ConsoleUI\bin\Debug\DataAccess.pdb
+C:\Users\omerf\source\repos\CarRentalProject\ConsoleUI\bin\Debug\Entities.pdb
+C:\Users\omerf\source\repos\CarRentalProject\ConsoleUI\obj\Debug\ConsoleUI.csprojAssemblyReference.cache
+C:\Users\omerf\source\repos\CarRentalProject\ConsoleUI\obj\Debug\ConsoleUI.csproj.CopyComplete
+C:\Users\omerf\source\repos\CarRentalProject\ConsoleUI\obj\Debug\ConsoleUI.exe
+C:\Users\omerf\source\repos\CarRentalProject\ConsoleUI\obj\Debug\ConsoleUI.pdb
