@@ -1,6 +1,9 @@
 ﻿using Business.Abstract;
 using Business.Constants;
-using Core.Utilities;
+using Business.ValidationRules.FluentValidation;
+using Core.Aspects.Autofac.Validation;
+using Core.CrossCuttingConcerns.Validation.FluentValidationTool;
+using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using System;
@@ -18,6 +21,7 @@ namespace Business.Concrete
             _rentalDal = rentalDal;
             
         }
+        [ValidationAspect(typeof(RentalValidator))]
         public IResult Add(Rental rental)
         {
             var result = CheckRentalCar(rental.CarId);
@@ -25,6 +29,7 @@ namespace Business.Concrete
             {
                 return new ErrorResult(Messages.CarCanNotBeRented);
             }
+            ValidationTool.Validate(new RentalValidator(), rental);
             _rentalDal.Add(rental);
             return new SuccessResult(Messages.CarCanBeRented);
         }

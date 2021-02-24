@@ -86,7 +86,6 @@ C:\Users\omerf\source\repos\CarRentalProject\WebAPI\bin\Debug\netcoreapp3.1\ru\M
 C:\Users\omerf\source\repos\CarRentalProject\WebAPI\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\omerf\source\repos\CarRentalProject\WebAPI\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\omerf\source\repos\CarRentalProject\WebAPI\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\omerf\source\repos\CarRentalProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\omerf\source\repos\CarRentalProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csproj.CopyComplete
 C:\Users\omerf\source\repos\CarRentalProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.dll
 C:\Users\omerf\source\repos\CarRentalProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.pdb
@@ -136,3 +135,8 @@ C:\Users\omerf\source\repos\CarRentalProject\WebAPI\bin\Debug\netcoreapp3.1\Busi
 C:\Users\omerf\source\repos\CarRentalProject\WebAPI\bin\Debug\netcoreapp3.1\Core.pdb
 C:\Users\omerf\source\repos\CarRentalProject\WebAPI\bin\Debug\netcoreapp3.1\DataAccess.pdb
 C:\Users\omerf\source\repos\CarRentalProject\WebAPI\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\omerf\source\repos\CarRentalProject\WebAPI\bin\Debug\netcoreapp3.1\Autofac.dll
+C:\Users\omerf\source\repos\CarRentalProject\WebAPI\bin\Debug\netcoreapp3.1\Autofac.Extras.DynamicProxy.dll
+C:\Users\omerf\source\repos\CarRentalProject\WebAPI\bin\Debug\netcoreapp3.1\Castle.Core.dll
+C:\Users\omerf\source\repos\CarRentalProject\WebAPI\bin\Debug\netcoreapp3.1\Autofac.Extensions.DependencyInjection.dll
+C:\Users\omerf\source\repos\CarRentalProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.MvcApplicationPartsAssemblyInfo.cache
