@@ -22,7 +22,7 @@ namespace Business.Concrete
         [ValidationAspect(typeof(UserValidator))]
         public IResult Add(User user)
         {
-            ValidationTool.Validate(new UserValidator(), user);
+            
             _userDal.Add(user);
             return new SuccessResult(Messages.UserAdded);
         }

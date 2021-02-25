@@ -2,9 +2,11 @@
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
 using Core.Aspects.Autofac.Validation;
+using Core.CrossCuttingConcerns.Check;
 using Core.CrossCuttingConcerns.Validation.FluentValidationTool;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
+using DataAccess.Concrete.EntityFramework;
 using Entities.Concrete;
 using System;
 using System.Collections.Generic;
@@ -15,34 +17,24 @@ namespace Business.Concrete
     public class RentalManager : IRentalService
     {
         IRentalDal _rentalDal;
-        
+
         public RentalManager(IRentalDal rentalDal)
         {
             _rentalDal = rentalDal;
-            
+
         }
         [ValidationAspect(typeof(RentalValidator))]
         public IResult Add(Rental rental)
         {
-            var result = CheckRentalCar(rental.CarId);
-            if (!result.Success)
-            {
-                return new ErrorResult(Messages.CarCanNotBeRented);
-            }
-            ValidationTool.Validate(new RentalValidator(), rental);
+            CheckTool.Check(new CheckRentalCarManager(new EfRentalDal(), rental));
+
             _rentalDal.Add(rental);
             return new SuccessResult(Messages.CarCanBeRented);
+
+
         }
 
-        public IResult CheckRentalCar(int carId)
-        {
-            var result = _rentalDal.GetAll(c => c.CarId == carId && c.ReturnDate == null );
-            if (result.Count>0)
-            {
-                return new ErrorResult();
-            }
-            return new SuccessResult();
-        }
+
 
         public IResult Delete(Rental rental)
         {

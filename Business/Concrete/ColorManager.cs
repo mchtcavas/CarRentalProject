@@ -22,7 +22,7 @@ namespace Business.Concrete
         [ValidationAspect(typeof(ColorValidator))]
         public IResult Add(Color color)
         {
-            ValidationTool.Validate(new ColorValidator(), color);
+            
             _colorDal.Add(color);
             return new SuccessResult(Messages.CarAdded);
         }
