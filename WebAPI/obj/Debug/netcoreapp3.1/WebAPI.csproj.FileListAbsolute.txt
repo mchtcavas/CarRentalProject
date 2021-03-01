@@ -141,3 +141,5 @@ C:\Users\omerf\source\repos\CarRentalProject\WebAPI\bin\Debug\netcoreapp3.1\Cast
 C:\Users\omerf\source\repos\CarRentalProject\WebAPI\bin\Debug\netcoreapp3.1\Autofac.Extensions.DependencyInjection.dll
 C:\Users\omerf\source\repos\CarRentalProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\omerf\source\repos\CarRentalProject\WebAPI\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Users\omerf\source\repos\CarRentalProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\omerf\source\repos\CarRentalProject\WebAPI\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll

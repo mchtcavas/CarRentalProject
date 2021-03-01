@@ -31,8 +31,6 @@ namespace Business.Constants
         public static string CarNotDelivered = "Araba Teslim Edilmedi";
         public static string CarCanBeRented = "Araba Kiralanabilir";
         public static string CarCanNotBeRented = "Araba Kiralanamaz";
-        
-        
-
+        public static string ImageLimitExceeded = "En Fazla 5 Adet Resim Eklenebilir";
     }
 }
