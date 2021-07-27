@@ -1,4 +1,5 @@
 ﻿using Business.Concrete;
+using Core.Entities.Concrete;
 using DataAccess.Concrete.EntityFramework;
 using Entities.Concrete;
 using System;
@@ -57,7 +58,7 @@ namespace ConsoleApp1
         private static void UserAdd()
         {
             UserManager userManager = new UserManager(new EfUserDal());
-            var result = userManager.Add(new User { UserFirstName = "Nazli", UserLastName = "Caliskan", UserEmail = "nazliCaliskan@gmail.com", UserPassword = "3746519834" });
+            var result = userManager.Add(new User { UserFirstName = "Nazli", UserLastName = "Caliskan", UserEmail = "nazliCaliskan@gmail.com" });
             Console.WriteLine(result.Messages);
         }
 

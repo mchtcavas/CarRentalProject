@@ -65,3 +65,15 @@ C:\Users\omerf\source\repos\CarRentalProject\ConsoleApp1\bin\Debug\netcoreapp3.1
 C:\Users\omerf\source\repos\CarRentalProject\ConsoleApp1\bin\Debug\netcoreapp3.1\FluentValidation.dll
 C:\Users\omerf\source\repos\CarRentalProject\ConsoleApp1\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
 C:\Users\omerf\source\repos\CarRentalProject\ConsoleApp1\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
+C:\Users\omerf\source\repos\CarRentalProject\ConsoleApp1\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\omerf\source\repos\CarRentalProject\ConsoleApp1\bin\Debug\netcoreapp3.1\NuGet.Common.dll
+C:\Users\omerf\source\repos\CarRentalProject\ConsoleApp1\bin\Debug\netcoreapp3.1\NuGet.Configuration.dll
+C:\Users\omerf\source\repos\CarRentalProject\ConsoleApp1\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\omerf\source\repos\CarRentalProject\ConsoleApp1\bin\Debug\netcoreapp3.1\NuGet.Packaging.dll
+C:\Users\omerf\source\repos\CarRentalProject\ConsoleApp1\bin\Debug\netcoreapp3.1\NuGet.Protocol.dll
+C:\Users\omerf\source\repos\CarRentalProject\ConsoleApp1\bin\Debug\netcoreapp3.1\NuGet.Versioning.dll
+C:\Users\omerf\source\repos\CarRentalProject\ConsoleApp1\bin\Debug\netcoreapp3.1\System.Formats.Asn1.dll
+C:\Users\omerf\source\repos\CarRentalProject\ConsoleApp1\bin\Debug\netcoreapp3.1\System.Security.Cryptography.Cng.dll
+C:\Users\omerf\source\repos\CarRentalProject\ConsoleApp1\bin\Debug\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll
+C:\Users\omerf\source\repos\CarRentalProject\ConsoleApp1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Security.Cryptography.Cng.dll
+C:\Users\omerf\source\repos\CarRentalProject\ConsoleApp1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Security.Cryptography.Pkcs.dll
